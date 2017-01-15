@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
                 .VERTICAL, false));
         mDemoListAdapter = new DemoListAdapter();
         mDemoRecyclerView.setAdapter(mDemoListAdapter);
-        mDemoListAdapter.add(new DemoItem("Single Fling Pager(like official ViewPager)") {
+        mDemoListAdapter.add(new DemoItem("Single Fling Pager(like official ViewPager..)") {
             @Override
             void onClick() {
                 startActivity(new Intent(MainActivity.this, SingleFlingPagerActivity.class));
