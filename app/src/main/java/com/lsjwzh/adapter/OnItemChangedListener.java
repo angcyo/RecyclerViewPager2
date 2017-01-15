@@ -2,7 +2,7 @@ package com.lsjwzh.adapter;
 
 public interface OnItemChangedListener {
 
-  boolean onItemMove(int fromPosition, int toPosition);
+    boolean onItemMove(int fromPosition, int toPosition);
 
-  void onItemDismiss(int position);
+    void onItemDismiss(int position);
 }
